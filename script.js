@@ -9,7 +9,7 @@ button.addEventListener("click", () => {
   let top = quotes.length;
   let randomizer = Math.floor(Math.random() * top);
   //check if quote is same as last click
-  if ((randomizer == checkRandNum) & (randomizer > top)) {
+  if (randomizer == checkRandNum) {
     let count = 0;
     quote.innerHTML = quotes[count].quote;
     author.innerHTML = quotes[count].author;
